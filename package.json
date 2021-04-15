@@ -22,7 +22,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \"PORT=3001 node server.js\"",
+    "start": "concurrently \"react-scripts start\" \"json-server --watch public/db.json --port=3001\"",
     "prebuild": "engine-version",
     "build": "react-scripts build",
     "test": "react-scripts test",
