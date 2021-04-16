@@ -35,7 +35,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "https://react-pizza-app-market.herokuapp.com/",
+  
   "browserslist": {
     "production": [
       ">0.2%",
