@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "classnames": "^2.2.6",
+    "concurrently": "^6.0.2",
     "node-sass": "^5.0.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -21,7 +22,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "concurrently \"npm run json-server\" \"npm run start\"",
+    "start": "react-scripts start",
     "prebuild": "engine-version",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,7 +35,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "https://react-pizza-app-market.herokuapp.com/",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -48,7 +49,6 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^6.0.2",
     "engine-version": "^1.0.2"
   },
   "engines": {

@@ -42,7 +42,8 @@ export const CartItem = ({id, name, type, size, totalPrice, totalCount, onRemove
             </div>
             <div className="cart__item-price">
                 <b>{totalPrice} ₽ </b>
-                <b>{totalPrice} ₽ </b>
+                <b></b>
+                
             </div>
             <div className="cart__item-remove">
                 <Button onClick={handleRemoveClick} outline className="button--circle">
